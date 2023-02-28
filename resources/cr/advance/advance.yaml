@@ -1,0 +1,302 @@
+# --------------------------------------------------------------------
+# Copyright (c) 2022, WSO2 LLC. (http://wso2.com) All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# -----------------------------------------------------------------------
+apiVersion: dp.wso2.com/v1alpha1
+kind: API
+metadata:
+  name: http-bin-api-advance
+spec:
+  apiDisplayName: http-bin-api-advance
+  apiType: REST
+  apiVersion: 1.0.8
+  context: /http-bin-api-advance/1.0.8
+  definitionFileRef: swagger-definition-http-bin-api-advance
+  prodHTTPRouteRef: prod-http-route-http-bin-api-advance
+  sandHTTPRouteRef: sand-http-route-http-bin-api-advance
+  organization: 01edb285-6304-1b20-a090-4d02067ed56e
+---
+apiVersion: gateway.networking.k8s.io/v1beta1
+kind: HTTPRoute
+metadata:
+  name: prod-http-route-http-bin-api-advance
+spec:
+  hostnames:
+    - prod.gw.wso2.com
+  parentRefs:
+    - group: gateway.networking.k8s.io
+      kind: Gateway
+      name: Default
+  rules:
+    - backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+      matches:
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/get/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/put/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/patch/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/post/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/delete/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+    - backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+      matches:
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/get/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/put/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/patch/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/post/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/delete/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+---
+apiVersion: gateway.networking.k8s.io/v1beta1
+kind: HTTPRoute
+metadata:
+  name: sand-http-route-http-bin-api-advance
+spec:
+  hostnames:
+    - sand.gw.wso2.com
+  parentRefs:
+    - group: gateway.networking.k8s.io
+      kind: Gateway
+      name: Default
+  rules:
+    - backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+      matches:
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/get/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/put/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/patch/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/post/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/delete/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+    - backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+      matches:
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/get/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/put/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/patch/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/post/
+        - path:
+            type: PathPrefix
+            value: /http-bin-api-advance/1.0.8/secure/delete/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+---
+apiVersion: dp.wso2.com/v1alpha1
+kind: Scope
+metadata:
+  name: pet
+spec:
+  names:
+    - read:pets
+---
+apiVersion: dp.wso2.com/v1alpha1
+kind: Authentication
+metadata:
+  name: prod-http-bin-authentication
+spec:
+  override:
+    type: ext
+    ext:
+      disabled: true
+  default:
+    type: ext
+    ext:
+      serviceRef:
+        group: wso2/v1alpha2
+        kind: Backend
+        name: ext_authz-server
+        port: 1234
+      authTypes:
+        - type: jwt
+  targetRef:
+    kind: Resource
+    name: prod-http-route-http-bin-api-advance
+    group: gateway.networking.k8s.io
+---
+apiVersion: dp.wso2.com/v1alpha1
+kind: Authentication
+metadata:
+  name: sand-http-bin-authentication
+spec:
+  override:
+    type: ext
+    ext:
+      disabled: true
+  default:
+    type: ext
+    ext:
+      serviceRef:
+        group: wso2/v1alpha2
+        kind: Backend
+        name: ext_authz-server
+        port: 1234
+      authTypes:
+        - type: jwt
+  targetRef:
+    kind: Resource
+    name: sand-http-route-http-bin-api-advance
+    group: gateway.networking.k8s.io
