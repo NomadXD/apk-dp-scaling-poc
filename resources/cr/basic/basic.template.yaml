@@ -13,27 +13,24 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # -----------------------------------------------------------------------
-
-## TODO - add method, remove sandbox
-
 apiVersion: dp.wso2.com/v1alpha1
 kind: API
 metadata:
-  name: http-bin-api-basic
+  name: $APK_API_NAME
 spec:
-  apiDisplayName: http-bin-api-basic
+  apiDisplayName: $APK_API_NAME
   apiType: REST
   apiVersion: 1.0.8
-  context: /http-bin-api-basic/1.0.8
+  context: /$APK_API_CONTEXT/$APK_API_VERSION
   definitionFileRef: swagger-definition-http-bin-api-basic
-  prodHTTPRouteRef: prod-http-route-http-bin-api-basic
-  sandHTTPRouteRef: sand-http-route-http-bin-api-basic
+  prodHTTPRouteRef: $APK_API_PROD_ROUTE
+  sandHTTPRouteRef: $APK_API_SAND_ROUTE
   organization: 01edb285-6304-1b20-a090-4d02067ed56e
 ---
 apiVersion: gateway.networking.k8s.io/v1beta1
 kind: HTTPRoute
 metadata:
-  name: prod-http-route-http-bin-api-basic
+  name: $APK_API_PROD_ROUTE
 spec:
   hostnames:
     - prod.gw.wso2.com
@@ -45,7 +42,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-basic/1.0.8/get/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/get/
           method: GET
       backendRefs:
         - group: ""
@@ -56,7 +53,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-basic/1.0.8/put/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/put/
           method: PUT
       backendRefs:
         - group: ""
@@ -67,7 +64,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-basic/1.0.8/patch/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/patch/
           method: PATCH
       backendRefs:
         - group: ""
@@ -78,7 +75,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-basic/1.0.8/post/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/post/
           method: POST
       backendRefs:
         - group: ""
@@ -89,7 +86,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-basic/1.0.8/delete/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/delete/
           method: DELETE
       backendRefs:
         - group: ""
