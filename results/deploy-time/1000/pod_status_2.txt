@@ -1,0 +1,82 @@
+kubectl top po --containers -A
+
+apk              apk-test-cert-manager-59954cb9dd-cfln8                          cert-manager-controller   1m           38Mi            
+apk              apk-test-cert-manager-cainjector-54b47dd655-7xpt2               cert-manager-cainjector   2m           36Mi            
+apk              apk-test-cert-manager-webhook-6cf6588b8f-vzj26                  cert-manager-webhook      1m           16Mi            
+apk              apk-test-wso2-apk-adapter-deployment-67444fdf5-7v95h            adapter                   1m           139Mi           
+apk              apk-test-wso2-apk-gateway-runtime-deployment-5fd45c5ff8-pjqwb   enforcer                  1m           331Mi           
+apk              apk-test-wso2-apk-gateway-runtime-deployment-5fd45c5ff8-pjqwb   router                    30m          200Mi           
+apk              apk-test-wso2-apk-idpds-deployment-6ccd9bbcfd-k94vg             idpds                     2m           188Mi           
+apk              apk-test-wso2-apk-idpui-deployment-58f9fc49c-ssqfb              idpui                     1m           13Mi            
+apk              apk-test-wso2-apk-runtime-ds-deployment-76d6d6c694-65r86        runtime-ds                2m           300Mi           
+apk              httpbin-5fb4d6bbc4-r6f78                                        httpbin                   1m           37Mi            
+apk              wso2apk-db-service-0                                            postgresql                4m           42Mi
+
+kubectl top pods -n apk
+NAME                                                            CPU(cores)   MEMORY(bytes)   
+apk-test-cert-manager-59954cb9dd-cfln8                          1m           38Mi            
+apk-test-cert-manager-cainjector-54b47dd655-7xpt2               2m           36Mi            
+apk-test-cert-manager-webhook-6cf6588b8f-vzj26                  1m           16Mi            
+apk-test-wso2-apk-adapter-deployment-67444fdf5-7v95h            3m           134Mi           
+apk-test-wso2-apk-gateway-runtime-deployment-5fd45c5ff8-pjqwb   32m          531Mi           
+apk-test-wso2-apk-idpds-deployment-6ccd9bbcfd-k94vg             2m           188Mi           
+apk-test-wso2-apk-idpui-deployment-58f9fc49c-ssqfb              1m           14Mi            
+apk-test-wso2-apk-runtime-ds-deployment-76d6d6c694-65r86        5m           301Mi           
+httpbin-5fb4d6bbc4-r6f78                                        1m           37Mi            
+wso2apk-db-service-0                                            4m           42Mi
+
+ kubectl get pod apk-test-wso2-apk-adapter-deployment-67444fdf5-7v95h -o json -n apk | jq -r '.status.conditions'
+[
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-02T15:59:28Z",
+    "status": "True",
+    "type": "Initialized"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-02T15:59:38Z",
+    "status": "True",
+    "type": "Ready"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-02T15:59:38Z",
+    "status": "True",
+    "type": "ContainersReady"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-02T15:59:28Z",
+    "status": "True",
+    "type": "PodScheduled"
+  }
+]
+
+kubectl get pod apk-test-wso2-apk-gateway-runtime-deployment-5fd45c5ff8-pjqwb -o json -n apk | jq -r '.status.conditions'
+[
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-02T15:59:28Z",
+    "status": "True",
+    "type": "Initialized"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-02T15:59:50Z",
+    "status": "True",
+    "type": "Ready"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-02T15:59:50Z",
+    "status": "True",
+    "type": "ContainersReady"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-02T15:59:28Z",
+    "status": "True",
+    "type": "PodScheduled"
+  }
+]
