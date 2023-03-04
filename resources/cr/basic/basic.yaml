@@ -27,8 +27,7 @@ spec:
   context: /http-bin-api-basic/1.0.8
   definitionFileRef: swagger-definition-http-bin-api-basic
   prodHTTPRouteRef: prod-http-route-http-bin-api-basic
-  sandHTTPRouteRef: sand-http-route-http-bin-api-basic
-  organization: 01edb285-6304-1b20-a090-4d02067ed56e
+  organization: a3b58ccf-6ecc-4557-b5bb-0a35cce38256
 ---
 apiVersion: gateway.networking.k8s.io/v1beta1
 kind: HTTPRoute

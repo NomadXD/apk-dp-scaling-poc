@@ -1,0 +1,2 @@
+[2023-03-03 10:45:49.994][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2002 cluster(s), remove 4 cluster(s)
+[2023-03-03 10:45:50.038][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 1988 unmodified cluster(s)

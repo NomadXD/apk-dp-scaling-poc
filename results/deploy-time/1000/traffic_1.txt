@@ -1,0 +1,11 @@
+2 mins
+
+apk              apk-test-wso2-apk-adapter-deployment-67444fdf5-56d8t            adapter                   2m           133Mi
+apk              apk-test-wso2-apk-gateway-runtime-deployment-5fd45c5ff8-wdbvd   enforcer                  179m         382Mi
+apk              apk-test-wso2-apk-gateway-runtime-deployment-5fd45c5ff8-wdbvd   router                    517m         205Mi
+
+5 mins
+
+apk              apk-test-wso2-apk-adapter-deployment-67444fdf5-56d8t            adapter                   1m           133Mi
+apk              apk-test-wso2-apk-gateway-runtime-deployment-5fd45c5ff8-wdbvd   enforcer                  122m         393Mi
+apk              apk-test-wso2-apk-gateway-runtime-deployment-5fd45c5ff8-wdbvd   router                    510m         205Mi

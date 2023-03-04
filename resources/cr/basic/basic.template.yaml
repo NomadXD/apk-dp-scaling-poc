@@ -13,20 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # -----------------------------------------------------------------------
-apiVersion: dp.wso2.com/v1alpha1
-kind: API
-metadata:
-  name: $APK_API_NAME
-spec:
-  apiDisplayName: $APK_API_NAME
-  apiType: REST
-  apiVersion: 1.0.8
-  context: /$APK_API_CONTEXT/$APK_API_VERSION
-  definitionFileRef: swagger-definition-http-bin-api-basic
-  prodHTTPRouteRef: $APK_API_PROD_ROUTE
-  sandHTTPRouteRef: $APK_API_SAND_ROUTE
-  organization: 01edb285-6304-1b20-a090-4d02067ed56e
----
 apiVersion: gateway.networking.k8s.io/v1beta1
 kind: HTTPRoute
 metadata:
@@ -44,6 +30,12 @@ spec:
             type: PathPrefix
             value: /$APK_API_CONTEXT/$APK_API_VERSION/get/
           method: GET
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /get
       backendRefs:
         - group: ""
           kind: Service
@@ -55,6 +47,12 @@ spec:
             type: PathPrefix
             value: /$APK_API_CONTEXT/$APK_API_VERSION/put/
           method: PUT
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /put
       backendRefs:
         - group: ""
           kind: Service
@@ -66,6 +64,12 @@ spec:
             type: PathPrefix
             value: /$APK_API_CONTEXT/$APK_API_VERSION/patch/
           method: PATCH
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /patch
       backendRefs:
         - group: ""
           kind: Service
@@ -77,6 +81,12 @@ spec:
             type: PathPrefix
             value: /$APK_API_CONTEXT/$APK_API_VERSION/post/
           method: POST
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /post
       backendRefs:
         - group: ""
           kind: Service
@@ -88,9 +98,81 @@ spec:
             type: PathPrefix
             value: /$APK_API_CONTEXT/$APK_API_VERSION/delete/
           method: DELETE
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /delete
       backendRefs:
         - group: ""
           kind: Service
           name: backend
           port: 80
           weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/foo/
+          method: GET
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /foo
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/bar/
+          method: GET
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /bar
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/baz/
+          method: GET
+      filters:
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplacePrefixMatch
+              replacePrefixMatch: /baz
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+
+---
+apiVersion: dp.wso2.com/v1alpha1
+kind: API
+metadata:
+  name: $APK_API_NAME
+spec:
+  apiDisplayName: $APK_API_NAME
+  apiType: REST
+  apiVersion: v1
+  context: /$APK_API_CONTEXT/$APK_API_VERSION
+  definitionFileRef: swagger-definition-http-bin-api-basic
+  prodHTTPRouteRefs:
+    - $APK_API_PROD_ROUTE
+  organization: a3b58ccf-6ecc-4557-b5bb-0a35cce38256

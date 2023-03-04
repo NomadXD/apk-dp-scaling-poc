@@ -1,0 +1,1111 @@
+[2023-03-04 06:53:24.085][8][info][upstream] [source/common/upstream/cluster_manager_impl.cc:222] cm init: initializing cds
+[2023-03-04 06:53:39.087][8][info][upstream] [source/common/upstream/cluster_manager_impl.cc:226] cm init: all clusters initialized
+[2023-03-04 06:53:55.584][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 0 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:55.584][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 0 cluster(s), skipped 0 unmodified cluster(s)
+[2023-03-04 06:53:56.477][8][info][upstream] [source/extensions/listener_managers/listener_manager/lds_api.cc:82] lds: add/update listener 'HTTPSListener'
+[2023-03-04 06:53:56.536][8][info][upstream] [source/extensions/listener_managers/listener_manager/lds_api.cc:82] lds: add/update listener 'HTTPListener'
+[2023-03-04 06:53:57.560][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:57.561][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 0 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:57.576][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 9 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:57.582][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 1 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:57.591][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 24 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:57.602][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 15 cluster(s), skipped 9 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:57.633][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 51 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:57.654][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 27 cluster(s), skipped 24 unmodified cluster(s)
+[2023-03-04 06:53:57.736][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 68 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:57.749][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 17 cluster(s), skipped 51 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:57.778][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 76 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:57.787][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 68 unmodified cluster(s)
+[2023-03-04 06:53:57.908][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 85 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:57.918][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 76 unmodified cluster(s)
+[2023-03-04 06:53:58.027][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 122 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.056][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 37 cluster(s), skipped 85 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:58.076][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 158 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.108][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 36 cluster(s), skipped 122 unmodified cluster(s)
+[2023-03-04 06:53:58.277][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 161 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.282][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 158 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:58.318][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 221 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.373][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 60 cluster(s), skipped 161 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:58.423][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 251 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.452][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 30 cluster(s), skipped 221 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:58.560][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 263 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.573][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 251 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:58.654][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 289 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.678][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 26 cluster(s), skipped 263 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:58.755][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 309 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.778][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 20 cluster(s), skipped 289 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:58.878][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 322 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:58.893][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 309 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:59.033][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 337 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:59.051][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 15 cluster(s), skipped 322 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:59.101][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 351 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:59.118][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 337 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:59.252][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 361 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:59.265][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 351 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:59.370][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 379 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:59.392][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 18 cluster(s), skipped 361 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:59.490][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 392 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:59.505][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 379 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:59.666][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 403 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:59.680][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 392 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:59.862][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 419 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:59.882][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 16 cluster(s), skipped 403 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:53:59.971][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 434 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:53:59.988][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 15 cluster(s), skipped 419 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:00.113][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 447 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:00.129][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 434 unmodified cluster(s)
+[2023-03-04 06:54:00.598][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 457 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:00.614][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 447 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:00.775][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 493 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:00.813][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 36 cluster(s), skipped 457 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:00.958][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 509 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:00.978][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 16 cluster(s), skipped 493 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:01.105][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 518 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:01.119][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 509 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:01.288][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 525 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:01.300][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 518 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:01.511][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 538 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:01.529][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 525 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:01.685][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 545 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:01.698][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 538 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:01.891][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 559 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:01.911][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 545 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:02.174][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 571 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:02.192][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 559 unmodified cluster(s)
+[2023-03-04 06:54:02.801][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 582 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:02.818][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 571 unmodified cluster(s)
+[2023-03-04 06:54:03.415][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 613 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:03.447][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 31 cluster(s), skipped 582 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:03.620][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 643 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:03.652][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 30 cluster(s), skipped 613 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:03.797][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 651 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:03.815][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 643 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:04.036][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 659 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:04.052][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 651 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:04.228][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 667 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:04.244][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 659 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:04.417][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 669 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:04.430][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 667 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:04.608][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 678 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:04.625][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 669 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:04.801][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 685 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:04.816][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 678 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:05.018][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 690 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:05.031][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 685 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:05.283][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 699 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:05.300][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 690 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:05.501][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 706 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:05.516][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 699 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:05.741][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 713 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:05.756][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 706 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:06.011][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 718 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:06.027][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 713 unmodified cluster(s)
+[2023-03-04 06:54:06.725][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 724 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:06.740][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 718 unmodified cluster(s)
+[2023-03-04 06:54:07.464][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 751 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:07.510][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 27 cluster(s), skipped 724 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:07.704][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 773 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:07.733][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 22 cluster(s), skipped 751 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:07.990][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 780 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:08.007][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 773 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:08.204][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 787 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:08.220][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 780 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:08.491][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 793 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:08.509][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 787 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:08.730][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 800 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:08.747][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 793 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:08.979][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 806 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:08.995][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 800 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:09.233][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 811 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:09.252][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 806 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:09.484][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 817 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:09.501][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 811 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:09.710][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 822 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:09.725][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 817 unmodified cluster(s)
+[2023-03-04 06:54:10.530][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 825 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:10.545][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 822 unmodified cluster(s)
+[2023-03-04 06:54:11.359][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 848 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:11.388][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 23 cluster(s), skipped 825 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:11.646][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 871 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:11.675][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 23 cluster(s), skipped 848 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:11.928][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 874 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:11.942][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 871 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:12.279][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 882 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:12.300][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 874 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:12.591][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 887 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:12.610][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 882 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:12.944][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 892 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:12.960][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 887 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:13.288][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 898 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:13.307][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 892 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:13.633][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 904 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:13.650][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 898 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:13.993][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 912 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:14.013][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 904 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:14.312][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 917 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:14.328][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 912 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:14.632][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 922 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:14.649][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 917 unmodified cluster(s)
+[2023-03-04 06:54:15.612][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 927 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:15.631][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 922 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:15.920][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 948 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:15.952][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 21 cluster(s), skipped 927 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:16.250][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 954 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:16.270][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 948 unmodified cluster(s)
+[2023-03-04 06:54:17.231][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 959 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:17.248][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 954 unmodified cluster(s)
+[2023-03-04 06:54:18.222][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 977 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:18.250][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 18 cluster(s), skipped 959 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:18.692][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 997 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:18.722][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 20 cluster(s), skipped 977 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:19.137][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1004 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:19.162][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 997 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:19.588][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1011 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:19.606][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 1004 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:19.928][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1015 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:19.946][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1011 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:20.239][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1020 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:20.259][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1015 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:20.698][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1027 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:20.719][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 1020 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:21.057][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1032 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:21.076][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1027 unmodified cluster(s)
+[2023-03-04 06:54:22.159][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1036 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:22.178][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1032 unmodified cluster(s)
+[2023-03-04 06:54:23.308][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1054 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:23.338][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 18 cluster(s), skipped 1036 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:28.604][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1139 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:28.686][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 85 cluster(s), skipped 1054 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:33.951][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1205 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:34.019][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 66 cluster(s), skipped 1139 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:34.350][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1210 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:34.371][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1205 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:34.928][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1215 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:34.949][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1210 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:35.347][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1219 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:35.368][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1215 unmodified cluster(s)
+[2023-03-04 06:54:36.644][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1224 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:36.666][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1219 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:37.155][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1241 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:37.187][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 17 cluster(s), skipped 1224 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:37.645][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1246 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:37.667][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1241 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:38.074][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1251 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:38.097][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1246 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:38.547][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1255 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:38.568][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1251 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:39.023][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1259 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:39.045][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1255 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:39.490][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1265 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:39.511][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 1259 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:40.036][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1270 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:40.064][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1265 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:40.449][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1273 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:40.471][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1270 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:40.875][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1277 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:40.897][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1273 unmodified cluster(s)
+[2023-03-04 06:54:42.203][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1281 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:42.229][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1277 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:42.726][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1297 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:42.764][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 16 cluster(s), skipped 1281 unmodified cluster(s)
+[2023-03-04 06:54:44.185][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1301 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:44.208][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1297 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:44.733][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1317 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:44.764][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 16 cluster(s), skipped 1301 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:49.839][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1367 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:49.898][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 50 cluster(s), skipped 1317 unmodified cluster(s)
+[2023-03-04 06:54:51.224][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1370 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:51.249][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1367 unmodified cluster(s)
+[2023-03-04 06:54:52.644][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1383 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:52.676][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 1370 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:53.241][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1397 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:53.272][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 1383 unmodified cluster(s)
+[2023-03-04 06:54:54.682][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1401 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:54.705][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1397 unmodified cluster(s)
+[2023-03-04 06:54:56.279][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1415 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:56.311][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 1401 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:56.978][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1432 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:57.011][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 17 cluster(s), skipped 1415 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:57.573][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1437 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:57.599][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1432 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:58.135][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1440 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:58.172][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1437 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:58.669][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1445 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:58.697][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1440 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:54:59.280][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1449 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:54:59.306][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1445 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:00.075][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1456 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:00.103][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 1449 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:00.669][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1460 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:00.694][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1456 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:01.355][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1465 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:01.380][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1460 unmodified cluster(s)
+[2023-03-04 06:55:02.829][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1467 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:02.852][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 1465 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:03.350][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1481 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:03.410][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 1467 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:03.933][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1486 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:03.959][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1481 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:04.502][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1490 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:04.526][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1486 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:05.185][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1495 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:05.212][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1490 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:05.610][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1497 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:05.634][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 1495 unmodified cluster(s)
+[2023-03-04 06:55:07.211][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1501 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:07.250][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1497 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:07.803][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1515 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:07.838][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 1501 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:08.442][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1519 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:08.468][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1515 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:09.169][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1525 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:09.199][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 1519 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:09.837][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1530 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:09.870][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1525 unmodified cluster(s)
+[2023-03-04 06:55:11.404][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1534 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:11.446][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1530 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:12.063][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1547 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:12.122][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 1534 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:12.769][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1552 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:12.795][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1547 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:13.373][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1556 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:13.400][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1552 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:14.030][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1560 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:14.056][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1556 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:14.661][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1565 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:14.691][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1560 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:15.310][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1569 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:15.340][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1565 unmodified cluster(s)
+[2023-03-04 06:55:16.974][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1572 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:17.000][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1569 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:17.698][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1586 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:17.731][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 1572 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:18.286][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1590 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:18.316][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1586 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:18.997][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1593 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:19.027][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1590 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:19.694][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1599 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:19.721][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 1593 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:20.313][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1602 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:20.369][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1599 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:20.891][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1606 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:20.917][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1602 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:21.561][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1609 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:21.587][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1606 unmodified cluster(s)
+[2023-03-04 06:55:23.276][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1613 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:23.303][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1609 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:24.019][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1627 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:24.054][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 1613 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:24.703][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1631 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:24.728][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1627 unmodified cluster(s)
+[2023-03-04 06:55:26.552][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1635 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:26.597][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1631 unmodified cluster(s)
+[2023-03-04 06:55:28.381][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1648 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:28.434][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 1635 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:29.056][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1661 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:29.096][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 1648 unmodified cluster(s)
+[2023-03-04 06:55:30.834][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1664 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:30.860][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1661 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:31.450][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1676 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:31.484][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 1664 unmodified cluster(s)
+[2023-03-04 06:55:33.183][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1678 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:33.207][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 1676 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:33.861][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1689 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:33.897][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 1678 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:34.580][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1694 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:34.609][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1689 unmodified cluster(s)
+[2023-03-04 06:55:36.542][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1699 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:36.570][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1694 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:42.949][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1746 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:43.012][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 47 cluster(s), skipped 1699 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:50.758][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1782 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:50.812][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 36 cluster(s), skipped 1746 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:51.453][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1794 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:51.493][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 1782 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:52.151][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1797 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:52.181][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1794 unmodified cluster(s)
+[2023-03-04 06:55:54.035][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1800 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:54.069][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1797 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:55:54.758][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1812 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:55:54.794][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 1800 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:00.272][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1840 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:00.320][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 28 cluster(s), skipped 1812 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:00.974][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1844 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:01.004][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1840 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:01.767][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1847 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:01.800][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 1844 unmodified cluster(s)
+[2023-03-04 06:56:03.830][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1851 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:03.861][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 1847 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:04.586][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1861 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:04.622][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 1851 unmodified cluster(s)
+[2023-03-04 06:56:06.745][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1866 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:06.778][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 1861 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:13.889][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1910 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:13.953][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 44 cluster(s), skipped 1866 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:19.198][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1934 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:19.250][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 24 cluster(s), skipped 1910 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:25.858][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1958 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:25.906][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 24 cluster(s), skipped 1934 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:26.583][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1969 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:26.624][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 1958 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:35.066][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 1998 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:35.119][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 29 cluster(s), skipped 1969 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:36.570][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2011 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:36.614][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 1998 unmodified cluster(s)
+[2023-03-04 06:56:38.731][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2015 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:38.769][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 4 cluster(s), skipped 2011 unmodified cluster(s)
+[2023-03-04 06:56:41.060][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2025 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:41.102][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2015 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:41.793][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2036 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:41.834][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 2025 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:42.643][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2039 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:42.674][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2036 unmodified cluster(s)
+[2023-03-04 06:56:44.741][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2041 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:44.776][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2039 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:45.398][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2051 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:45.439][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2041 unmodified cluster(s)
+[2023-03-04 06:56:47.559][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2053 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:47.590][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2051 unmodified cluster(s)
+[2023-03-04 06:56:49.764][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2063 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:49.805][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2053 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:56:50.593][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2073 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:50.633][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2063 unmodified cluster(s)
+[2023-03-04 06:56:52.942][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2075 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:52.975][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2073 unmodified cluster(s)
+[2023-03-04 06:56:55.202][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2086 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:55.278][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 2075 unmodified cluster(s)
+[2023-03-04 06:56:57.547][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2095 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:56:57.583][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2086 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:03.007][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2123 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:03.064][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 28 cluster(s), skipped 2095 unmodified cluster(s)
+[2023-03-04 06:57:10.134][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2146 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:10.189][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 23 cluster(s), skipped 2123 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:10.974][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2156 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:11.013][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2146 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:11.857][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2159 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:11.892][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2156 unmodified cluster(s)
+[2023-03-04 06:57:14.031][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2161 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:14.066][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2159 unmodified cluster(s)
+[2023-03-04 06:57:16.427][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2170 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:16.475][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2161 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:17.210][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2179 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:17.253][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2170 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:17.960][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2182 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:17.997][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2179 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:18.884][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2185 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:18.919][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2182 unmodified cluster(s)
+[2023-03-04 06:57:21.448][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2188 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:21.484][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2185 unmodified cluster(s)
+[2023-03-04 06:57:23.995][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2198 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:24.058][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2188 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:24.806][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2207 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:24.847][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2198 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:25.686][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2210 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:25.720][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2207 unmodified cluster(s)
+[2023-03-04 06:57:28.137][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2212 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:28.171][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2210 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:29.001][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2222 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:29.043][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2212 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:35.992][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2239 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:36.052][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 17 cluster(s), skipped 2222 unmodified cluster(s)
+[2023-03-04 06:57:38.495][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2248 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:38.559][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2239 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:39.474][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2258 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:39.520][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2248 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:40.283][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2261 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:40.321][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2258 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:41.206][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2264 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:41.244][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2261 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:42.084][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2267 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:42.123][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2264 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:49.976][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2287 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:50.045][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 20 cluster(s), skipped 2267 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:55.923][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2312 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:55.979][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 25 cluster(s), skipped 2287 unmodified cluster(s)
+[2023-03-04 06:57:58.460][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2314 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:58.495][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2312 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:57:59.318][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2323 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:57:59.360][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2314 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:58:06.492][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2348 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:58:06.547][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 25 cluster(s), skipped 2323 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:58:07.443][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2350 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:58:07.479][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2348 unmodified cluster(s)
+[2023-03-04 06:58:10.072][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2353 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:58:10.124][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2350 unmodified cluster(s)
+[2023-03-04 06:58:12.852][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2362 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:58:12.897][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2353 unmodified cluster(s)
+[2023-03-04 06:58:15.459][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2371 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:58:15.506][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2362 unmodified cluster(s)
+[2023-03-04 06:58:18.083][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2379 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:58:18.138][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 2371 unmodified cluster(s)
+[2023-03-04 06:58:20.865][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2388 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:58:20.911][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2379 unmodified cluster(s)
+[2023-03-04 06:58:23.552][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2397 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:58:23.596][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2388 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:00.031][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2511 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:00.162][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 114 cluster(s), skipped 2397 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:06.568][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2530 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:06.622][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 19 cluster(s), skipped 2511 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:07.585][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2533 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:07.625][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2530 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:08.642][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2535 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:08.684][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2533 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:09.615][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2537 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:09.654][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2535 unmodified cluster(s)
+[2023-03-04 06:59:12.545][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2539 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:12.587][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2537 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:18.461][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2562 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:18.525][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 23 cluster(s), skipped 2539 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:19.471][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2564 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:19.510][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2562 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:26.523][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2584 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:26.582][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 20 cluster(s), skipped 2564 unmodified cluster(s)
+[2023-03-04 06:59:29.444][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2586 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:29.481][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2584 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:30.588][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2595 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:30.637][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 2586 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:31.636][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2597 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:31.677][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2595 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:32.674][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2599 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:32.712][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2597 unmodified cluster(s)
+[2023-03-04 06:59:35.781][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2602 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:35.833][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2599 unmodified cluster(s)
+[2023-03-04 06:59:38.643][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2610 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:38.692][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 2602 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 06:59:47.274][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2632 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:47.348][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 22 cluster(s), skipped 2610 unmodified cluster(s)
+[2023-03-04 06:59:50.374][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2640 cluster(s), remove 4 cluster(s)
+[2023-03-04 06:59:50.420][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 2632 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:00:27.893][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2736 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:00:28.012][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 96 cluster(s), skipped 2640 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:00:28.941][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2739 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:00:28.982][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 3 cluster(s), skipped 2736 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:00:34.495][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2751 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:00:34.548][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 2739 unmodified cluster(s)
+[2023-03-04 07:00:37.751][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2753 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:00:37.794][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2751 unmodified cluster(s)
+[2023-03-04 07:00:40.797][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2761 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:00:40.869][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 2753 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:00:41.907][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2769 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:00:41.953][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 2761 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:00:42.980][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2771 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:00:43.022][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2769 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:01:03.168][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2813 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:01:03.248][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 42 cluster(s), skipped 2771 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:01:15.246][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2842 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:01:15.313][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 29 cluster(s), skipped 2813 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:01:54.294][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2926 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:01:54.404][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 84 cluster(s), skipped 2842 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:02:10.684][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2959 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:10.758][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 33 cluster(s), skipped 2926 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:02:16.509][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2969 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:16.559][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 2959 unmodified cluster(s)
+[2023-03-04 07:02:19.648][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2970 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:19.737][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 2969 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:02:25.267][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2986 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:25.325][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 16 cluster(s), skipped 2970 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:02:26.510][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2988 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:26.555][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2986 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:02:27.612][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2990 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:27.659][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2988 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:02:28.781][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2992 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:28.824][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2990 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:02:30.021][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 2994 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:30.064][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 2992 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:02:49.862][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3028 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:02:49.934][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 34 cluster(s), skipped 2994 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:03:05.532][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3061 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:03:05.606][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 33 cluster(s), skipped 3028 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:03:06.667][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3063 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:03:06.710][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 3061 unmodified cluster(s)
+[2023-03-04 07:03:10.219][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3064 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:03:10.261][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3063 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:03:11.236][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3071 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:03:11.291][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 3064 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:04:28.371][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3201 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:04:28.518][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 130 cluster(s), skipped 3071 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:04:37.280][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3210 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:04:37.336][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 9 cluster(s), skipped 3201 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:05:22.785][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3291 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:05:22.909][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 81 cluster(s), skipped 3210 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:05:36.481][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3314 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:05:36.548][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 23 cluster(s), skipped 3291 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:05:50.262][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3331 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:05:50.327][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 17 cluster(s), skipped 3314 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:05:58.300][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3343 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:05:58.361][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 3331 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:05:59.467][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3350 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:05:59.527][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 3343 unmodified cluster(s)
+[2023-03-04 07:06:03.138][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3351 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:06:03.192][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3350 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:06:09.378][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3365 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:06:09.444][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 14 cluster(s), skipped 3351 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:06:17.540][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3372 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:06:17.595][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 3365 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:06:22.852][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3385 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:06:22.913][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 3372 unmodified cluster(s)
+[2023-03-04 07:06:26.663][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3387 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:06:26.714][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 3385 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:06:46.962][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3417 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:06:47.051][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 30 cluster(s), skipped 3387 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:06:58.200][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3433 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:06:58.288][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 16 cluster(s), skipped 3417 unmodified cluster(s)
+[2023-03-04 07:07:09.773][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3451 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:07:09.836][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 18 cluster(s), skipped 3433 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:07:16.080][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3464 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:07:16.146][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 3451 unmodified cluster(s)
+[2023-03-04 07:07:19.967][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3465 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:07:20.019][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3464 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:07:21.170][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3471 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:07:21.229][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 3465 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:07:39.794][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3493 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:07:39.866][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 22 cluster(s), skipped 3471 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:08:17.837][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3550 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:08:17.939][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 57 cluster(s), skipped 3493 unmodified cluster(s)
+[2023-03-04 07:08:26.033][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3557 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:08:26.098][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 3550 unmodified cluster(s)
+[2023-03-04 07:08:30.204][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3562 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:08:30.259][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 3557 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:08:36.567][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3575 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:08:36.637][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 3562 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:08:47.415][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3586 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:08:47.473][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 3575 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:09:03.946][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3611 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:09:04.025][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 25 cluster(s), skipped 3586 unmodified cluster(s)
+[2023-03-04 07:09:07.961][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3612 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:09:08.018][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3611 unmodified cluster(s)
+[2023-03-04 07:09:16.478][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3625 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:09:16.544][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 3612 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:09:25.970][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3640 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:09:26.035][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 15 cluster(s), skipped 3625 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:09:46.229][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3662 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:09:46.309][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 22 cluster(s), skipped 3640 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:09:51.760][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3674 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:09:51.827][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 3662 unmodified cluster(s)
+[2023-03-04 07:09:55.763][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3675 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:09:55.821][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3674 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:09:57.184][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3681 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:09:57.247][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 3675 unmodified cluster(s)
+[2023-03-04 07:10:01.260][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3682 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:10:01.328][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3681 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:10:02.873][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3688 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:10:02.929][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 3682 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:10:23.177][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3713 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:10:23.252][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 25 cluster(s), skipped 3688 unmodified cluster(s)
+[2023-03-04 07:10:31.472][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3720 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:10:31.530][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 3713 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:10:37.570][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3731 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:10:37.633][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 3720 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:10:43.377][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3739 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:10:43.436][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 3731 unmodified cluster(s)
+[2023-03-04 07:10:47.651][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3740 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:10:47.714][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3739 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:10:54.725][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3753 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:10:54.803][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 13 cluster(s), skipped 3740 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:11:06.182][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3763 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:11:06.243][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 3753 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:11:12.081][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3774 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:11:12.153][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 3763 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:11:13.599][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3776 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:11:13.654][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 3774 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:11:15.109][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3777 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:11:15.172][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3776 unmodified cluster(s)
+[2023-03-04 07:11:19.299][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3779 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:11:19.362][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 3777 unmodified cluster(s)
+[2023-03-04 07:11:23.730][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3785 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:11:23.794][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 3779 unmodified cluster(s)
+[2023-03-04 07:11:28.223][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3790 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:11:28.278][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 3785 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:11:34.019][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3800 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:11:34.091][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 3790 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:12:02.879][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3835 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:12:02.968][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 35 cluster(s), skipped 3800 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:12:22.766][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3855 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:12:22.850][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 20 cluster(s), skipped 3835 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:12:30.288][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3867 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:12:30.355][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 12 cluster(s), skipped 3855 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:12:31.718][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3869 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:12:31.777][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 2 cluster(s), skipped 3867 unmodified cluster(s)
+[2023-03-04 07:12:36.048][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3870 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:12:36.108][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 1 cluster(s), skipped 3869 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:12:54.136][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3891 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:12:54.217][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 21 cluster(s), skipped 3870 unmodified cluster(s)
+[2023-03-04 07:13:02.993][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3901 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:13:03.074][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 10 cluster(s), skipped 3891 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:13:09.021][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3912 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:13:09.092][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 11 cluster(s), skipped 3901 unmodified cluster(s)
+[2023-03-04 07:13:17.936][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3919 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:13:17.999][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 7 cluster(s), skipped 3912 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:13:19.702][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3925 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:13:19.764][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 6 cluster(s), skipped 3919 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:13:30.132][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3933 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:13:30.199][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 8 cluster(s), skipped 3925 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:13:31.645][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 3938 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:13:31.706][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 5 cluster(s), skipped 3933 unmodified cluster(s)
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[libprotobuf WARNING external/com_google_protobuf/src/google/protobuf/text_format.cc:2166] type.googleapis.com/envoy.config.route.v3.RouteConfiguration: failed to parse contents
+[2023-03-04 07:14:39.686][8][info][upstream] [source/common/upstream/cds_api_helper.cc:35] cds: add 4002 cluster(s), remove 4 cluster(s)
+[2023-03-04 07:14:39.797][8][info][upstream] [source/common/upstream/cds_api_helper.cc:72] cds: added/updated 64 cluster(s), skipped 3938 unmodified cluster(s)

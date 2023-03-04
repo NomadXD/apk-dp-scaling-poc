@@ -1,0 +1,68 @@
+kubectl top po --containers -A | grep "apk"
+apk              apk-test-cert-manager-59954cb9dd-xvsjt                          cert-manager-controller   1m           33Mi            
+apk              apk-test-cert-manager-cainjector-54b47dd655-6f8rf               cert-manager-cainjector   2m           33Mi            
+apk              apk-test-cert-manager-webhook-6cf6588b8f-9g67g                  cert-manager-webhook      1m           14Mi            
+apk              apk-test-wso2-apk-adapter-deployment-67444fdf5-dcfx2            adapter                   100m         636Mi           
+apk              apk-test-wso2-apk-gateway-runtime-deployment-559d459454-st8l7   enforcer                  14m          740Mi           
+apk              apk-test-wso2-apk-gateway-runtime-deployment-559d459454-st8l7   router                    95m          1031Mi          
+apk              apk-test-wso2-apk-idpds-deployment-6ccd9bbcfd-5fldz             idpds                     2m           187Mi           
+apk              apk-test-wso2-apk-idpui-deployment-58f9fc49c-scmgg              idpui                     1m           15Mi            
+apk              apk-test-wso2-apk-runtime-ds-deployment-76d6d6c694-2dxpz        runtime-ds                3m           418Mi           
+apk              httpbin-5fb4d6bbc4-glcpz                                        httpbin                   1m           37Mi            
+apk              wso2apk-db-service-0                                            postgresql                4m           42Mi
+
+kubectl get pod apk-test-wso2-apk-gateway-runtime-deployment-559d459454-st8l7 -o json -n apk | jq -r '.status.conditions'
+[
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T05:25:48Z",
+    "status": "True",
+    "type": "Initialized"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T05:26:07Z",
+    "status": "True",
+    "type": "Ready"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T05:26:07Z",
+    "status": "True",
+    "type": "ContainersReady"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T05:25:48Z",
+    "status": "True",
+    "type": "PodScheduled"
+  }
+]
+
+kubectl get pod apk-test-wso2-apk-adapter-deployment-67444fdf5-dcfx2 -o json -n apk | jq -r '.status.conditions'
+[
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T05:25:48Z",
+    "status": "True",
+    "type": "Initialized"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T05:26:06Z",
+    "status": "True",
+    "type": "Ready"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T05:26:06Z",
+    "status": "True",
+    "type": "ContainersReady"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T05:25:48Z",
+    "status": "True",
+    "type": "PodScheduled"
+  }
+]

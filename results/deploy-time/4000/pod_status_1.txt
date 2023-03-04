@@ -1,0 +1,73 @@
+kubectl get pod apk-test-wso2-apk-gateway-runtime-deployment-559d459454-6lrzf -o json -n apk | jq -r '.status.conditions'
+[
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T06:53:19Z",
+    "status": "True",
+    "type": "Initialized"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T06:53:24Z",
+    "status": "True",
+    "type": "Ready"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T06:53:24Z",
+    "status": "True",
+    "type": "ContainersReady"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T06:53:19Z",
+    "status": "True",
+    "type": "PodScheduled"
+  }
+]
+
+kubectl get pod apk-test-wso2-apk-adapter-deployment-67444fdf5-dlw8j -o json -n apk | jq -r '.status.conditions'
+[
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T06:53:19Z",
+    "status": "True",
+    "type": "Initialized"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T06:53:54Z",
+    "status": "True",
+    "type": "Ready"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T06:53:54Z",
+    "status": "True",
+    "type": "ContainersReady"
+  },
+  {
+    "lastProbeTime": null,
+    "lastTransitionTime": "2023-03-04T06:53:19Z",
+    "status": "True",
+    "type": "PodScheduled"
+  }
+]
+
+kubectl top po --containers -A | grep "apk"
+apk              apk-test-cert-manager-59954cb9dd-9zwkh                          cert-manager-controller   1m           33Mi            
+apk              apk-test-cert-manager-cainjector-54b47dd655-4ld6s               cert-manager-cainjector   3m           34Mi            
+apk              apk-test-cert-manager-webhook-6cf6588b8f-km6cb                  cert-manager-webhook      1m           15Mi            
+apk              apk-test-wso2-apk-adapter-deployment-67444fdf5-dlw8j            adapter                   124m         872Mi           
+apk              apk-test-wso2-apk-gateway-runtime-deployment-559d459454-6lrzf   enforcer                  11m          648Mi           
+apk              apk-test-wso2-apk-gateway-runtime-deployment-559d459454-6lrzf   router                    123m         1347Mi          
+apk              apk-test-wso2-apk-idpds-deployment-6ccd9bbcfd-zfr2t             idpds                     4m           201Mi           
+apk              apk-test-wso2-apk-idpui-deployment-58f9fc49c-z9rj5              idpui                     1m           20Mi            
+apk              apk-test-wso2-apk-runtime-ds-deployment-76d6d6c694-b8rxg        runtime-ds                3m           462Mi           
+apk              httpbin-5fb4d6bbc4-glcpz                                        httpbin                   1m           37Mi            
+apk              wso2apk-db-service-0                                            postgresql                4m           41Mi 
+
+
+http://20.197.99.0:9000/stats?filter=cluster_manager.active_clusters&format=json&type=All&histogram_buckets=cumulative
+
+{"stats":[{"name":"cluster_manager.active_clusters","value":4006}]}
