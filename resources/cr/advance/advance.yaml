@@ -16,21 +16,23 @@
 apiVersion: dp.wso2.com/v1alpha1
 kind: API
 metadata:
-  name: http-bin-api-advance
+  name: $APK_API_NAME
 spec:
-  apiDisplayName: http-bin-api-advance
+  apiDisplayName: $APK_API_NAME
   apiType: REST
   apiVersion: 1.0.8
-  context: /http-bin-api-advance/1.0.8
+  context: /$APK_API_CONTEXT/$APK_API_VERSION
   definitionFileRef: swagger-definition-http-bin-api-advance
-  prodHTTPRouteRef: prod-http-route-http-bin-api-advance
-  sandHTTPRouteRef: sand-http-route-http-bin-api-advance
+  prodHTTPRouteRefs:
+    - $APK_API_PROD_ROUTE
+  sandHTTPRouteRefs:
+    - $APK_API_SAND_ROUTE
   organization: 01edb285-6304-1b20-a090-4d02067ed56e
 ---
 apiVersion: gateway.networking.k8s.io/v1beta1
 kind: HTTPRoute
 metadata:
-  name: prod-http-route-http-bin-api-advance
+  name: $APK_API_PROD_ROUTE
 spec:
   hostnames:
     - prod.gw.wso2.com
@@ -42,7 +44,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/get/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/get/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -78,7 +80,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/put/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/put/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -114,7 +116,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/post/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/post/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -150,7 +152,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/patch/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/patch/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -186,7 +188,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/delete/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/delete/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -222,7 +224,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/get/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/get/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -258,7 +260,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/put/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/put/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -294,7 +296,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/post/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/post/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -330,7 +332,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/patch/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/patch/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -366,7 +368,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/delete/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/delete/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -415,7 +417,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/get/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/get/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -451,7 +453,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/put/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/put/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -487,7 +489,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/post/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/post/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -523,7 +525,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/patch/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/patch/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -559,7 +561,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/secure/delete/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/delete/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -595,7 +597,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/get/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/get/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -631,7 +633,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/put/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/put/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -667,7 +669,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/post/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/post/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -703,7 +705,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/patch/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/patch/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -739,7 +741,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /http-bin-api-advance/1.0.8/delete/
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/delete/
       filters:
         - type: RequestHeaderModifier
           requestHeaderModifier:
@@ -802,7 +804,7 @@ spec:
         - type: jwt
   targetRef:
     kind: Resource
-    name: prod-http-route-http-bin-api-advance
+    name: $APK_API_PROD_ROUTE
     group: gateway.networking.k8s.io
 ---
 apiVersion: dp.wso2.com/v1alpha1
@@ -826,7 +828,7 @@ spec:
         - type: jwt
   targetRef:
     kind: Resource
-    name: sand-http-route-http-bin-api-advance
+    name: $APK_API_SAND_ROUTE
     group: gateway.networking.k8s.io
 ---
 apiVersion: dp.wso2.com/v1alpha1
@@ -837,28 +839,28 @@ spec:
   override:
     protocol: https
     # Uncomment following to validate certificate via a given ca cert (this should be a root level cert)
-    # tls:
-    #   certificateInline: |
-    #     -----BEGIN CERTIFICATE-----
-    #     MIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF
-    #     ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
-    #     b24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTEL
-    #     MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv
-    #     b3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj
-    #     ca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM
-    #     9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw
-    #     IFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6
-    #     VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L
-    #     93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm
-    #     jgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMC
-    #     AYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUA
-    #     A4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDI
-    #     U5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUs
-    #     N+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vv
-    #     o/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU
-    #     5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpy
-    #     rqXRfboQnoZsG4q5WTP468SQvvG5
-    #       -----END CERTIFICATE-----
+    tls:
+      certificateInline: |
+        -----BEGIN CERTIFICATE-----
+        MIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF
+        ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
+        b24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTEL
+        MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv
+        b3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj
+        ca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM
+        9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw
+        IFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6
+        VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L
+        93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm
+        jgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMC
+        AYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUA
+        A4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDI
+        U5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUs
+        N+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vv
+        o/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU
+        5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpy
+        rqXRfboQnoZsG4q5WTP468SQvvG5
+          -----END CERTIFICATE-----
   targetRef:
     group: ""
     kind: Service
