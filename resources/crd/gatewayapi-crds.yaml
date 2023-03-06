@@ -591,7 +591,7 @@ spec:
                     required:
                       - value
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
                 gatewayClassName:
                   description:
@@ -1010,7 +1010,7 @@ spec:
                     required:
                       - value
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
                 conditions:
                   default:
@@ -1349,7 +1349,7 @@ spec:
                     required:
                       - value
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
                 gatewayClassName:
                   description:
@@ -1768,7 +1768,7 @@ spec:
                     required:
                       - value
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
                 conditions:
                   default:
@@ -2166,7 +2166,7 @@ spec:
                     minLength: 1
                     pattern: ^(\*\.)?[a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*$
                     type: string
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
                 parentRefs:
                   description:
@@ -2440,7 +2440,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -2459,7 +2459,7 @@ spec:
                                           bar"
                                         items:
                                           type: string
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                       set:
                                         description:
@@ -2503,7 +2503,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -2649,7 +2649,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -2668,7 +2668,7 @@ spec:
                                           bar"
                                         items:
                                           type: string
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                       set:
                                         description:
@@ -2712,7 +2712,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -2755,7 +2755,7 @@ spec:
                                 required:
                                   - type
                                 type: object
-                              maxItems: 100
+                              maxItems: 10000
                               type: array
                             group:
                               default: ""
@@ -2829,7 +2829,7 @@ spec:
                           required:
                             - name
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         type: array
                       filters:
                         description:
@@ -2936,7 +2936,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -2953,7 +2953,7 @@ spec:
                                     \  GET /foo HTTP/1.1   my-header2: bar"
                                   items:
                                     type: string
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                 set:
                                   description:
@@ -2994,7 +2994,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -3132,7 +3132,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -3149,7 +3149,7 @@ spec:
                                     \  GET /foo HTTP/1.1   my-header2: bar"
                                   items:
                                     type: string
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                 set:
                                   description:
@@ -3190,7 +3190,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -3231,7 +3231,7 @@ spec:
                           required:
                             - type
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         type: array
                       matches:
                         default:
@@ -3321,7 +3321,7 @@ spec:
                                   - name
                                   - value
                                 type: object
-                              maxItems: 100
+                              maxItems: 10000
                               type: array
                               x-kubernetes-list-map-keys:
                                 - name
@@ -3371,7 +3371,7 @@ spec:
                         maxItems: 8
                         type: array
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
               type: object
             status:
@@ -3755,7 +3755,7 @@ spec:
                     minLength: 1
                     pattern: ^(\*\.)?[a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*$
                     type: string
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
                 parentRefs:
                   description:
@@ -4029,7 +4029,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -4048,7 +4048,7 @@ spec:
                                           bar"
                                         items:
                                           type: string
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                       set:
                                         description:
@@ -4092,7 +4092,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -4352,7 +4352,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -4371,7 +4371,7 @@ spec:
                                           bar"
                                         items:
                                           type: string
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                       set:
                                         description:
@@ -4415,7 +4415,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -4532,7 +4532,7 @@ spec:
                                 required:
                                   - type
                                 type: object
-                              maxItems: 100
+                              maxItems: 10000
                               type: array
                             group:
                               default: ""
@@ -4606,7 +4606,7 @@ spec:
                           required:
                             - name
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         type: array
                       filters:
                         description:
@@ -4719,7 +4719,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -4736,7 +4736,7 @@ spec:
                                     \  GET /foo HTTP/1.1   my-header2: bar"
                                   items:
                                     type: string
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                 set:
                                   description:
@@ -4777,7 +4777,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -5022,7 +5022,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -5039,7 +5039,7 @@ spec:
                                     \  GET /foo HTTP/1.1   my-header2: bar"
                                   items:
                                     type: string
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                 set:
                                   description:
@@ -5080,7 +5080,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -5190,7 +5190,7 @@ spec:
                           required:
                             - type
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         type: array
                       matches:
                         default:
@@ -5296,7 +5296,7 @@ spec:
                                   - name
                                   - value
                                 type: object
-                              maxItems: 100
+                              maxItems: 10000
                               type: array
                               x-kubernetes-list-map-keys:
                                 - name
@@ -5404,7 +5404,7 @@ spec:
                                   - name
                                   - value
                                 type: object
-                              maxItems: 100
+                              maxItems: 10000
                               type: array
                               x-kubernetes-list-map-keys:
                                 - name
@@ -5413,7 +5413,7 @@ spec:
                         maxItems: 8
                         type: array
                     type: object
-                  maxItems: 1000
+                  maxItems: 10000
                   type: array
               type: object
             status:
@@ -5765,7 +5765,7 @@ spec:
                     minLength: 1
                     pattern: ^(\*\.)?[a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*$
                     type: string
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
                 parentRefs:
                   description:
@@ -6039,7 +6039,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -6058,7 +6058,7 @@ spec:
                                           bar"
                                         items:
                                           type: string
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                       set:
                                         description:
@@ -6102,7 +6102,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -6362,7 +6362,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -6381,7 +6381,7 @@ spec:
                                           bar"
                                         items:
                                           type: string
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                       set:
                                         description:
@@ -6425,7 +6425,7 @@ spec:
                                             - name
                                             - value
                                           type: object
-                                        maxItems: 100
+                                        maxItems: 10000
                                         type: array
                                         x-kubernetes-list-map-keys:
                                           - name
@@ -6542,7 +6542,7 @@ spec:
                                 required:
                                   - type
                                 type: object
-                              maxItems: 100
+                              maxItems: 10000
                               type: array
                             group:
                               default: ""
@@ -6616,7 +6616,7 @@ spec:
                           required:
                             - name
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         type: array
                       filters:
                         description:
@@ -6729,7 +6729,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -6746,7 +6746,7 @@ spec:
                                     \  GET /foo HTTP/1.1   my-header2: bar"
                                   items:
                                     type: string
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                 set:
                                   description:
@@ -6787,7 +6787,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -7032,7 +7032,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -7049,7 +7049,7 @@ spec:
                                     \  GET /foo HTTP/1.1   my-header2: bar"
                                   items:
                                     type: string
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                 set:
                                   description:
@@ -7090,7 +7090,7 @@ spec:
                                       - name
                                       - value
                                     type: object
-                                  maxItems: 100
+                                  maxItems: 10000
                                   type: array
                                   x-kubernetes-list-map-keys:
                                     - name
@@ -7200,7 +7200,7 @@ spec:
                           required:
                             - type
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         type: array
                       matches:
                         default:
@@ -7306,7 +7306,7 @@ spec:
                                   - name
                                   - value
                                 type: object
-                              maxItems: 100
+                              maxItems: 10000
                               type: array
                               x-kubernetes-list-map-keys:
                                 - name
@@ -7414,7 +7414,7 @@ spec:
                                   - name
                                   - value
                                 type: object
-                              maxItems: 100
+                              maxItems: 10000
                               type: array
                               x-kubernetes-list-map-keys:
                                 - name
@@ -7423,7 +7423,7 @@ spec:
                         maxItems: 8
                         type: array
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
               type: object
             status:
@@ -7802,7 +7802,7 @@ spec:
                       - kind
                       - namespace
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   minItems: 1
                   type: array
                 to:
@@ -7847,7 +7847,7 @@ spec:
                       - group
                       - kind
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   minItems: 1
                   type: array
               required:
@@ -7940,7 +7940,7 @@ spec:
                       - kind
                       - namespace
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   minItems: 1
                   type: array
                 to:
@@ -7985,7 +7985,7 @@ spec:
                       - group
                       - kind
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   minItems: 1
                   type: array
               required:
@@ -8282,11 +8282,11 @@ spec:
                           required:
                             - name
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         minItems: 1
                         type: array
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   minItems: 1
                   type: array
               required:
@@ -8659,7 +8659,7 @@ spec:
                     minLength: 1
                     pattern: ^(\*\.)?[a-z0-9]([-a-z0-9]*[a-z0-9])?(\.[a-z0-9]([-a-z0-9]*[a-z0-9])?)*$
                     type: string
-                  maxItems: 100
+                  maxItems: 10000
                   type: array
                 parentRefs:
                   description:
@@ -8891,11 +8891,11 @@ spec:
                           required:
                             - name
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         minItems: 1
                         type: array
                     type: object
-                  maxItems: 100
+                  maxItems: 10000
                   minItems: 1
                   type: array
               required:
@@ -9449,11 +9449,11 @@ spec:
                           required:
                             - name
                           type: object
-                        maxItems: 100
+                        maxItems: 10000
                         minItems: 1
                         type: array
                     type: object
-                  maxItems: 1000
+                  maxItems: 100000
                   minItems: 1
                   type: array
               required:
