@@ -961,43 +961,44 @@ kind: "ConfigMap"
 apiVersion: "v1"
 metadata:
   name: $APK_API_NAME
-data: |
-  apiVersion: v1
-  kind: Service
-  metadata:
-    name: backend
-  spec:
-    ports:
-      - name: http
-        port: 80
-        targetPort: 80
-    selector:
-      app: httpbin
-  ---
-  apiVersion: apps/v1
-  kind: Deployment
-  metadata:
-    name: httpbin
-  spec:
-    replicas: 1
-    selector:
-      matchLabels:
+data:
+  depservice: |
+    apiVersion: v1
+    kind: Service
+    metadata:
+      name: backend
+    spec:
+      ports:
+        - name: http
+          port: 80
+          targetPort: 80
+      selector:
         app: httpbin
-    template:
-      metadata:
-        labels:
+    ---
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      name: httpbin
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
           app: httpbin
-      spec:
-        containers:
-          - image: docker.io/kennethreitz/httpbin:latest
-            imagePullPolicy: IfNotPresent
-            name: httpbin
-            ports:
-              - containerPort: 80
-            resources:
-              requests:
-                memory: "200Mi"
-                cpu: "300m"
-              limits:
-                memory: "200Mi"
-                cpu: "300m"
+      template:
+        metadata:
+          labels:
+            app: httpbin
+        spec:
+          containers:
+            - image: docker.io/kennethreitz/httpbin:latest
+              imagePullPolicy: IfNotPresent
+              name: httpbin
+              ports:
+                - containerPort: 80
+              resources:
+                requests:
+                  memory: "200Mi"
+                  cpu: "300m"
+                limits:
+                  memory: "200Mi"
+                  cpu: "300m"
