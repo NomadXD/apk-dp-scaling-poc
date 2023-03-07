@@ -1,0 +1,1003 @@
+# --------------------------------------------------------------------
+# Copyright (c) 2022, WSO2 LLC. (http://wso2.com) All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# -----------------------------------------------------------------------
+apiVersion: dp.wso2.com/v1alpha1
+kind: API
+metadata:
+  name: $APK_API_NAME
+spec:
+  apiDisplayName: $APK_API_NAME
+  apiType: REST
+  apiVersion: 1.0.8
+  context: /$APK_API_CONTEXT/$APK_API_VERSION
+  definitionFileRef: swagger-definition-http-bin-api-advance
+  prodHTTPRouteRefs:
+    - $APK_API_PROD_ROUTE
+  sandHTTPRouteRefs:
+    - $APK_API_SAND_ROUTE
+  organization: 01edb285-6304-1b20-a090-4d02067ed56e
+---
+apiVersion: gateway.networking.k8s.io/v1beta1
+kind: HTTPRoute
+metadata:
+  name: $APK_API_PROD_ROUTE
+spec:
+  hostnames:
+    - prod.gw.wso2.com
+  parentRefs:
+    - group: gateway.networking.k8s.io
+      kind: Gateway
+      name: Default
+  rules:
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/get/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/put/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/post/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/patch/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/delete/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/get/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/put/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/post/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/patch/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/delete/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: prod-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+---
+apiVersion: gateway.networking.k8s.io/v1beta1
+kind: HTTPRoute
+metadata:
+  name: sand-http-route-http-bin-api-advance
+spec:
+  hostnames:
+    - sand.gw.wso2.com
+  parentRefs:
+    - group: gateway.networking.k8s.io
+      kind: Gateway
+      name: Default
+  rules:
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/get/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/put/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/post/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/patch/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/secure/delete/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 443
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/get/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/put/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/post/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/patch/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: backend
+          port: 80
+          weight: 1
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /$APK_API_CONTEXT/$APK_API_VERSION/delete/
+      filters:
+        - type: RequestHeaderModifier
+          requestHeaderModifier:
+            add:
+              - name: custom-request-header
+                value: myvalue
+            set:
+              - name: custom-override-header
+                value: myvalue
+        - type: ResponseHeaderModifier
+          responseHeaderModifier:
+            add:
+              - name: custom-response-header
+                value: myvalue
+            remove:
+              - access-control-allow-credentials
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Authentication
+            name: sand-http-bin-authentication
+        - type: ExtensionRef
+          extensionRef:
+            group: dp.wso2.com
+            kind: Scope
+            name: pet
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: secure-backend
+          port: 80
+          weight: 1
+---
+apiVersion: dp.wso2.com/v1alpha1
+kind: Scope
+metadata:
+  name: $APK_API_NAME
+spec:
+  names:
+    - read:pets
+---
+apiVersion: dp.wso2.com/v1alpha1
+kind: Authentication
+metadata:
+  name: $APK_API_PROD_ROUTE
+spec:
+  override:
+    type: ext
+    ext:
+      disabled: true
+  default:
+    type: ext
+    ext:
+      serviceRef:
+        group: wso2/v1alpha2
+        kind: Backend
+        name: ext_authz-server
+        port: 1234
+      authTypes:
+        - type: jwt
+  targetRef:
+    kind: Resource
+    name: $APK_API_PROD_ROUTE
+    group: gateway.networking.k8s.io
+---
+apiVersion: dp.wso2.com/v1alpha1
+kind: Authentication
+metadata:
+  name: $APK_API_SAND_ROUTE
+spec:
+  override:
+    type: ext
+    ext:
+      disabled: true
+  default:
+    type: ext
+    ext:
+      serviceRef:
+        group: wso2/v1alpha2
+        kind: Backend
+        name: ext_authz-server
+        port: 1234
+      authTypes:
+        - type: jwt
+  targetRef:
+    kind: Resource
+    name: $APK_API_SAND_ROUTE
+    group: gateway.networking.k8s.io
+---
+apiVersion: dp.wso2.com/v1alpha1
+kind: BackendPolicy
+metadata:
+  name: $APK_API_NAME
+spec:
+  override:
+    protocol: https
+    # Uncomment following to validate certificate via a given ca cert (this should be a root level cert)
+    tls:
+      certificateInline: |
+        -----BEGIN CERTIFICATE-----
+        MIIDQTCCAimgAwIBAgITBmyfz5m/jAo54vB4ikPmljZbyjANBgkqhkiG9w0BAQsF
+        ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
+        b24gUm9vdCBDQSAxMB4XDTE1MDUyNjAwMDAwMFoXDTM4MDExNzAwMDAwMFowOTEL
+        MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv
+        b3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj
+        ca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM
+        9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw
+        IFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6
+        VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L
+        93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm
+        jgSubJrIqg0CAwEAAaNCMEAwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMC
+        AYYwHQYDVR0OBBYEFIQYzIU07LwMlJQuCFmcx7IQTgoIMA0GCSqGSIb3DQEBCwUA
+        A4IBAQCY8jdaQZChGsV2USggNiMOruYou6r4lK5IpDB/G/wkjUu0yKGX9rbxenDI
+        U5PMCCjjmCXPI6T53iHTfIUJrU6adTrCC2qJeHZERxhlbI1Bjjt/msv0tadQ1wUs
+        N+gDS63pYaACbvXy8MWy7Vu33PqUXHeeE6V/Uq2V8viTO96LXFvKWlJbYK8U90vv
+        o/ufQJVtMVT8QtPHRh8jrdkPSHCa2XV4cdFyQzR1bldZwgJcJmApzyMZFo6IQ6XU
+        5MsI+yMRQ+hDKXJioaldXgjUkK642M4UwtBV8ob2xJNDd2ZhwLnoQdeXeGADbkpy
+        rqXRfboQnoZsG4q5WTP468SQvvG5
+          -----END CERTIFICATE-----
+  targetRef:
+    group: ""
+    kind: Service
+    name: secure-backend
+---
+apiVersion: "dp.wso2.com/v1alpha1"
+kind: "RuntimeAPI"
+metadata:
+  name: $APK_API_NAME
+  namespace: "m5"
+  labels:
+    api-name: "testAPI"
+    api-version: "1.0.0"
+spec:
+  name: "testAPI"
+  context: "/testAPI/1.0.0"
+  type: "REST"
+  version: "1.0.0"
+  operations:
+    - authTypeEnabled: true
+      scopes: []
+      target: "/*"
+      verb: "GET"
+      operationPolicies:
+        request: []
+        response: []
+    - authTypeEnabled: true
+      scopes: []
+      target: "/*"
+      verb: "PUT"
+      operationPolicies:
+        request: []
+        response: []
+    - authTypeEnabled: true
+      scopes: []
+      target: "/*"
+      verb: "POST"
+      operationPolicies:
+        request: []
+        response: []
+    - authTypeEnabled: true
+      scopes: []
+      target: "/*"
+      verb: "DELETE"
+      operationPolicies:
+        request: []
+        response: []
+    - authTypeEnabled: true
+      scopes: []
+      target: "/*"
+      verb: "PATCH"
+      operationPolicies:
+        request: []
+        response: []
+  serviceInfo:
+    name: "backend"
+    namespace: "test-apk"
+---
+kind: "ConfigMap"
+apiVersion: "v1"
+metadata:
+  name: $APK_API_NAME
+  namespace: "m5"
+  labels:
+    api-name: "testAPI"
+    api-version: "1.0.0"
+data:
+  openapi.json:
+    "{\"openapi\":\"3.0.1\", \"info\":{\"title\":\"testAPI\", \"version\"\
+    :\"1.0.0\"}, \"security\":[{\"default\":[]}], \"paths\":{\"/*\":{\"get\":{\"responses\"\
+    :{\"200\":{\"description\":\"OK\"}}, \"security\":[{\"default\":[]}], \"x-auth-type\"\
+    :true, \"x-throttling-tier\":\"Unlimited\"}, \"put\":{\"responses\":{\"200\":{\"\
+    description\":\"OK\"}}, \"security\":[{\"default\":[]}], \"x-auth-type\":true,\
+    \ \"x-throttling-tier\":\"Unlimited\"}, \"post\":{\"responses\":{\"200\":{\"description\"\
+    :\"OK\"}}, \"security\":[{\"default\":[]}], \"x-auth-type\":true, \"x-throttling-tier\"\
+    :\"Unlimited\"}, \"delete\":{\"responses\":{\"200\":{\"description\":\"OK\"}},\
+    \ \"security\":[{\"default\":[]}], \"x-auth-type\":true, \"x-throttling-tier\"\
+    :\"Unlimited\"}, \"patch\":{\"responses\":{\"200\":{\"description\":\"OK\"}},\
+    \ \"security\":[{\"default\":[]}], \"x-auth-type\":true, \"x-throttling-tier\"\
+    :\"Unlimited\"}}}, \"components\":{\"securitySchemes\":{\"default\":{\"type\"\
+    :\"oauth2\", \"flows\":{\"implicit\":{\"authorizationUrl\":\"https://test.com\"\
+    , \"scopes\":{}}}}}}}{\"openapi\":\"3.0.1\", \"info\":{\"title\":\"testAPI\", \"version\"\
+    :\"1.0.0\"}, \"security\":[{\"default\":[]}], \"paths\":{\"/*\":{\"get\":{\"responses\"\
+    :{\"200\":{\"description\":\"OK\"}}, \"security\":[{\"default\":[]}], \"x-auth-type\"\
+    :true, \"x-throttling-tier\":\"Unlimited\"}, \"put\":{\"responses\":{\"200\":{\"\
+    description\":\"OK\"}}, \"security\":[{\"default\":[]}], \"x-auth-type\":true,\
+    \ \"x-throttling-tier\":\"Unlimited\"}, \"post\":{\"responses\":{\"200\":{\"description\"\
+    :\"OK\"}}, \"security\":[{\"default\":[]}], \"x-auth-type\":true, \"x-throttling-tier\"\
+    :\"Unlimited\"}, \"delete\":{\"responses\":{\"200\":{\"description\":\"OK\"}},\
+    \ \"security\":[{\"default\":[]}], \"x-auth-type\":true, \"x-throttling-tier\"\
+    :\"Unlimited\"}, \"patch\":{\"responses\":{\"200\":{\"description\":\"OK\"}},\
+    \ \"security\":[{\"default\":[]}], \"x-auth-type\":true, \"x-throttling-tier\"\
+    :\"Unlimited\"}}}, \"components\":{\"securitySchemes\":{\"default\":{\"type\"\
+    :\"oauth2\", \"flows\":{\"implicit\":{\"authorizationUrl\":\"https://test.com\"\
+    , \"scopes\":{}}}}}}}"
+---
+kind: "ConfigMap"
+apiVersion: "v1"
+metadata:
+  name: $APK_API_NAME
+data: |
+  apiVersion: v1
+  kind: Service
+  metadata:
+    name: backend
+  spec:
+    ports:
+      - name: http
+        port: 80
+        targetPort: 80
+    selector:
+      app: httpbin
+  ---
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: httpbin
+  spec:
+    replicas: 1
+    selector:
+      matchLabels:
+        app: httpbin
+    template:
+      metadata:
+        labels:
+          app: httpbin
+      spec:
+        containers:
+          - image: docker.io/kennethreitz/httpbin:latest
+            imagePullPolicy: IfNotPresent
+            name: httpbin
+            ports:
+              - containerPort: 80
+            resources:
+              requests:
+                memory: "200Mi"
+                cpu: "300m"
+              limits:
+                memory: "200Mi"
+                cpu: "300m"
