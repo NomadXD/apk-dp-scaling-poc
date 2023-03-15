@@ -7,4 +7,7 @@ Kubernetes versions
 Node sizes
 Standard_DS2_v2, Standard_B4ms
 
+Jmeter
+Standard B4ms (4 vcpus, 16 GiB memory)
+
 
